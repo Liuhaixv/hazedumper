@@ -1044,5 +1044,17 @@
       "prop": "m_nModelIndex",
       "table": "DT_BaseViewModel"
     }
+	{
+		//round_index_of_first_round = 0;
+		//player's flashed enemies num at first round, flashed_nums = read(playerentity + m_iMatchStats_EnemiesFlashed + round_index * 0x4)
+      "name": "flashedEnemiesNumAtFirstRound",
+      "prop": "m_iMatchStats_EnemiesFlashed",
+      "table": "DT_CSPlayer"
+	},
+	{
+      "name": "headshotKilledEnemiesAtFirstRound",
+      "prop": "m_iMatchStats_HeadShotKills",
+      "table": "DT_CSPlayer"
+	}
   ]
 }
